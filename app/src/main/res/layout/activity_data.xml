@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_save_pre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save data"/>
+
+    <Button
+        android:id="@+id/btn_restore_pre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="restore data"/>
+
+    <Button
+        android:id="@+id/btn_create_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="create database"/>
+
+    <Button
+        android:id="@+id/btn_add_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add data"/>
+
+    <Button
+        android:id="@+id/btn_update_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update data"/>
+
+    <Button
+        android:id="@+id/btn_query_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="query data"/>
+
+    <Button
+        android:id="@+id/btn_delete_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete data"/>
+
+</LinearLayout>
